@@ -7,6 +7,7 @@
 body {
   background-color: hsl(0, 0%, 98%);
   font-family: 'Poppins', sans-serif;
+  font-size: 15px;
 }
 .header {
   border: 1px solid slateblue;
@@ -25,7 +26,8 @@ body {
 .container {
   border: 1px solid slateblue;
   margin-top: 40px;
-  text-align: center;
+  /* margin-left: 30px; */
+  /* width: 900px; */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1fr 1fr;
@@ -36,6 +38,20 @@ body {
   border: 1px solid rgb(34, 139, 134);
   grid-column: 1;
   grid-row: 2;
+}
+.el--1,
+.el--2,
+.el--3,
+.el--4,
+h4 {
+  color: hsl(234, 12%, 34%);
+}
+.el--1,
+.el--2,
+.el--3,
+.el--4,
+p {
+  color: hsl(229, 6%, 66%);
 }
 .el--2 {
   border: 1px solid rgb(139, 34, 125);
