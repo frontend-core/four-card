@@ -69,13 +69,13 @@ p {
   grid-row: 1;
 }
 .el--3 {
-  border: 1px solid rgb(190, 106, 50);
+  border-top: 2px solid hsl(34, 97%, 64%);
   grid-column: 2;
   grid-row: 2;
   /* column-gap: 10px; */
 }
 .el--4 {
-  border: 1px solid rgb(51, 6, 34);
+  border-top: 2px solid hsl(212, 86%, 64%);
   grid-column: 3;
   grid-row: 2;
 }
