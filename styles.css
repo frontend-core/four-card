@@ -41,6 +41,16 @@ p {
   padding: 30px;
   margin: 15px;
   width: 350px;
+  position: relative;
+  overflow: hidden;
+}
+.box::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 5px;
+  width: 100%;
 }
 .box h2 {
   margin: 0;
