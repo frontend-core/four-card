@@ -17,6 +17,12 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/styles.css" />
 
     <title>Frontend Mentor | Four card feature section</title>
@@ -35,44 +41,36 @@
   <body>
     <header class="header">
       <h1>Reliable, efficient delivery</h1>
-      <h2>Powered by Technology</h2>
+      <h1>Powered by Technology</h1>
       <p>
         Our Artificial Intelligence powered tools use millions of project data
         points to ensure that your project is successful
       </p>
     </header>
-    <main class="container">
-      <div class="card__container">
-        <div class="el el--1">
-          <h4>Supervisor</h4>
-          <p>Monitors activity to identify project roadblocks</p>
-          <img src="/images/icon-supervisor.svg" alt="" />
-        </div>
-        <div class="card__container--el">
-          <div class="el el--2">
-            <h4>Team Builder</h4>
-            <p>
-              Scans our talent network to create the optimal team for your
-              project
-            </p>
-            <img src="/images/icon-team-builder.svg" alt="" />
-          </div>
-          <div class="el el--3">
-            <h4>Karma</h4>
-            <p>Regularly evaluates our talent to ensure quality</p>
-            <img src="/images/icon-karma.svg" alt="" />
-          </div>
-        </div>
-
-        <div class="el el--4">
-          <h4>Calculator</h4>
-          <p>
-            Uses data from past projects to provide better delivery estimates
-          </p>
-          <img src="/images/icon-calculator.svg" alt="" />
-        </div>
+    <div class="container">
+      <div class="box">
+        <h3>Supervisor</h3>
+        <p>Monitors activity to identify project roadblocks</p>
+        <img src="/images/icon-supervisor.svg" alt="" />
       </div>
-    </main>
+      <div class="box">
+        <h3>Team Builder</h3>
+        <p>
+          Scans our talent network to create the optimal team for your project
+        </p>
+        <img src="/images/icon-team-builder.svg" alt="" />
+      </div>
+      <div class="box">
+        <h3>Karma</h3>
+        <p>Regularly evaluates our talent to ensure quality</p>
+        <img src="/images/icon-karma.svg" alt="" />
+      </div>
+      <div class="box">
+        <h3>Calculator</h3>
+        <p>Uses data from past projects to provide better delivery estimates</p>
+        <img src="/images/icon-calculator.svg" alt="" />
+      </div>
+    </div>
 
     <footer>
       <p class="attribution">
