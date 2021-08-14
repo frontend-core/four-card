@@ -23,6 +23,9 @@ header h1:nth-child(2) {
   color: hsl(234, 12%, 34%);
   font-weight: 600;
 }
+header p {
+  margin-top: 10px;
+}
 p {
   color: hsl(229, 6%, 66%);
 }
