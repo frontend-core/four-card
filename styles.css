@@ -11,7 +11,7 @@ body {
 
 header {
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 60px;
   max-width: 500px;
   text-align: center;
   padding: 10px;
@@ -25,7 +25,7 @@ header h1:nth-child(2) {
   font-weight: 600;
 }
 header p {
-  margin-top: 10px;
+  margin-top: 20px;
 }
 p {
   color: hsl(229, 6%, 66%);
