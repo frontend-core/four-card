@@ -63,7 +63,7 @@ p {
 }
 .box p {
   font-size: 14px;
-  margin: 15px 0 30px;
+  margin: 15px 0 50px;
 }
 .box img {
   display: block;
@@ -80,4 +80,10 @@ p {
 }
 .box:nth-child(4) {
   border-top: 3px solid hsl(34, 97%, 64%);
+}
+
+@media (max-width: 775px) {
+  .box-push {
+    transform: translateY(0);
+  }
 }
