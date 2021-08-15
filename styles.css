@@ -10,7 +10,8 @@ body {
 }
 
 header {
-  margin: 60px auto;
+  margin: 0 auto;
+  margin-top: 50px;
   max-width: 500px;
   text-align: center;
   padding: 10px;
@@ -36,6 +37,7 @@ p {
   justify-content: center;
   max-width: 1140px;
   margin: 0 auto;
+  margin-top: 30px;
 }
 .box {
   background-color: #fff;
